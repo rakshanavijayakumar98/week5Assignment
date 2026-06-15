@@ -1,4 +1,4 @@
-import test from '@Playwright/test'
+import test from '@playwright/test'
 
 test("storing Leaftabs login", async({page})=>{
     await page.goto("http://leaftaps.com/opentaps/")
