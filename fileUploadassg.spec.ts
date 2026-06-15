@@ -1,4 +1,4 @@
-import {test, expect} from '@Playwright/test'
+import {test, expect} from '@playwright/test'
 
 test("File Upload using SetInputFiles", async ({page})=>{
     await page.goto("https://the-internet.herokuapp.com/upload")
