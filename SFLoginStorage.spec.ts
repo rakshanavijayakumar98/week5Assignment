@@ -1,4 +1,4 @@
-import {test,expect} from '@Playwright/test'
+import {test,expect} from '@playwright/test'
 
 test.use({storageState:'Data/Saleforce.json'})
 
