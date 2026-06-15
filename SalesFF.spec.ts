@@ -1,4 +1,4 @@
-import {test, expect} from '@Playwright/test'
+import {test, expect} from '@playwright/test'
 
 test ("File uploading on Web application", async({page})=> {
     await page.goto("https://login.salesforce.com/")
