@@ -1,4 +1,4 @@
-import test from '@Playwright/test'
+import test from '@playwright/test'
 
 test("Download the file", async({page})=> {
     await page.goto("https://the-internet.herokuapp.com/download")
