@@ -1,4 +1,4 @@
-import {test, expect} from '@Playwright/test'
+import {test, expect} from '@playwright/test'
 
 test("Store the Saleforce credentials", async ({page})=>{
     await page.goto("https://login.salesforce.com/")
